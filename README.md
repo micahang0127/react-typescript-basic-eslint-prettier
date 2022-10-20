@@ -46,11 +46,13 @@
             
     5.  prettier 설치 <br>
         5-1. prettier는 vscode extension으로 설치했기 때문에 따로 설치할 필요는 없지만, 프로젝트가 팀단위로 진행되거나 package.json에 확실히 명시해두고 싶다면 아래 명령어로 설치 <br>
-        $ npm install --save-dev --save-exact prettier  <br>
+        
+            $ npm install --save-dev --save-exact prettier  <br>
 
         5-2. ESLint와 Prettier 규칙 충돌을 피하고 Prettier오류를 Lint에러로 보기 위해 아래 두가지 설치 <br>
-        $ npm i -D eslint-plugin-prettier <br>
-        $ npm i -D eslint-plugin-prettier <br>
+        
+            $ npm i -D eslint-plugin-prettier <br>
+            $ npm i -D eslint-plugin-prettier <br>
  
         eslint-config-prettier : 불필요하거나 prettier와 출동일 일어나는 모든 ESLint의 rules를 무시. <br>
         eslint-polugin-prettier : Prettier를 ESLint의 오류로 나타나게 해주는 패키지. 즉, prettier규칙이 ESLint규칙으로 추가 된다고 볼수 있기 때분에 ESLint 하나만 실행해도 문법검사와 formatting을 함께 실행 시킬 수 있다. <br>
