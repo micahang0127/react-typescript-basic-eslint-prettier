@@ -105,4 +105,6 @@
     arrowParens : 화살표 함수 괄호 사용 방식<br>
 
 [참고]  
-https://seogeurim.tistory.com/15?category=981579
+https://seogeurim.tistory.com/15?category=981579 <br>
+아래 보고 다시 설정하기 - error X <br>
+https://velog.io/@gingaminga/React-CRA-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-ESLint-Prettier 
