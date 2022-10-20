@@ -51,7 +51,7 @@
 
         5-2. ESLint와 Prettier 규칙 충돌을 피하고 Prettier오류를 Lint에러로 보기 위해 아래 두가지 설치 <br>
         
-            $ npm i -D eslint-plugin-prettier <br>
+            $ npm i -D eslint-config-prettier <br>
             $ npm i -D eslint-plugin-prettier <br>
  
         eslint-config-prettier : 불필요하거나 prettier와 출동일 일어나는 모든 ESLint의 rules를 무시. <br>
